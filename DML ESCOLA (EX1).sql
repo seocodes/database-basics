@@ -40,3 +40,6 @@ fonepai,fonemae,rg,cpf,email,datanasc,codcurso) VALUES (3, "João Pereira", "Rua
 54321, 876543, 11223344, 66778899, "joao.pereira@gmail.com", "15/05/1990", 1)
 
 --------------------------------
+
+INSERT INTO disciplina(codigo,nome,ementa,nraulas,periodo,codcurso,codprofessor) 
+values (1,"Banco Dados","Modelagem,criacao e programação do BD",3,"Vespertino",1,1)
