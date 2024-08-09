@@ -8,7 +8,7 @@ INSERT INTO estado(codigo,nome) VALUES(2, 'PARANÁ');
 INSERT INTO estado(codigo,nome) VALUES(3, 'RIO GRANDE DO SUL');
 
 -------------------------------
---obs: o codestado ali é aquele declarado, que pega de referencia a PK da table estado (codigo)
+--obs: o codestado ali é aquele declarado como FK, que pega de referencia a PK codigo da table estado
 --entao quando boto 1, ele vai na tabela estado, na pk CODIGO e pega o valor que há dentro
 --e os valores relacionados a esse (tipo o nome, que no caso do codestado 1, é SANTA CATARINA)
 INSERT INTO cidade(codigo,nome,codestado) VALUES(1, 'CRICIÚMA', 1);
